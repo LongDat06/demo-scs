@@ -18,7 +18,7 @@ class Item
 		@height_max = height_max
 	end
 	
-	def self.price_item(item)
+	def self.detail_item(item)
 		@@count  += 1
 		puts "#{item.packing_style} #{item.length} ..."
 	end

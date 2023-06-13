@@ -11,7 +11,7 @@ b = Item.new("BARE",50,500,1000,5,"TBA",2)
 container.additems(a)
 container.additems(b)
 
-Container.price_container(container)
+Container.detail_container(container)
 Item.total_item
 container.container_type_action
 

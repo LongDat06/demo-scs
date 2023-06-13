@@ -10,9 +10,9 @@ class Container
 		@@items = []
 	end
 
-	def self.price_container(container)
+	def self.detail_container(container)
 		puts "Container type: #{container.container_type}"
-		@@items.each {|record| Item.price_item(record)}
+		@@items.each {|record| Item.detail_item(record)}
 	end
 
 	def additems (item)
